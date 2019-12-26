@@ -1,0 +1,38 @@
+o[Master][Time: 259360014886204] Reserving ports for the required worker size 1 by deleting previous resources.
+O[Resource][Time: 259360116991717] Creating worker process with worker Id 12000
+m[Resource][Time: 259360119061612] Created worker process java.lang.UNIXProcess@7ca5d290 with worker Id 12000
+_[Task Allocation][Time: 259360126123646] [Server]Listening for next task request to port 11999
+_[Task Allocation][Time: 259360224103397] [Server]Listening for next task request to port 11999
+d[Task Allocation][Time: 259360224222123] [Server]Handling communication for request from port 59005
+X[Task Allocation][Time: 259360228587770] [Server]Task request message from worker 12000
+µ[Task Allocation][Time: 259360229366377] [Manager]Assigning input file /Users/somilgupta/Desktop/CS_532/workspace/project-2-group-13/build/resources/test/simple.txt to worker 12000
+²[Task Allocation][Time: 259360230044991] [Server]Task for input file /Users/somilgupta/Desktop/CS_532/workspace/project-2-group-13/build/resources/test/simple.txt given to 12000
+_[Task Allocation][Time: 259370269250595] [Server]Listening for next task request to port 11999
+d[Task Allocation][Time: 259370269306432] [Server]Handling communication for request from port 59006
+S[Task Allocation][Time: 259370269553315] [Server]Success message from worker 12000
+Í[Task Allocation][Time: 259370269702546] [Manager]Marking input file: /Users/somilgupta/Desktop/CS_532/workspace/project-2-group-13/build/resources/test/simple.txt as completed. Worker 12000 completed it.
+a[Task Allocation][Time: 259370269838318] [Server]All tasks are completed. Stopping worker 12000.
+O[Resource][Time: 259370269951468] Stopping worker process with worker Id 12000
+p[Resource][Time: 259373271521582] Destroying worker process java.lang.UNIXProcess@7ca5d290 with worker Id 12000
+P[Resource][Time: 259373274424565] Destroyed worker process with worker Id 12000
+d[Resource][Time: 259373274605912] Worker process with worker Id 12000 destroyed with exit value:137
+i[Task Allocation][Time: 259385271099105] [Server]Timed out listening sockets for requests for port:11999
+”[Task Allocation][Time: 259385271518655] [Server]Stopped listening as all tasks are completed. Stopping all workers now. Number of active workers=0
+F[Task Allocation][Time: 259385272889698] [Server]Stopped all workers.
+\[Master][MergerSorter][Time: 259385274206260] Calling Merger for merging the worker outputs
+O[Master][MergerSorter][Time: 259385274553786] Reading File wcOutput/simple.ser
+_[Master][MergerSorter][Time: 259385278315074] File wcOutput/simple.ser merged to main Hashmap.
+][Master][MergerSorter][Time: 259385278455522] Merging done! Sending the merged HashMap back.
+U[Master][MergerSorter][Time: 259385278546360] Calling sorter to sort the merged data
+][Master][MergerSorter][Time: 259385279547133] Sorting done! Sending the sorted HashMap back.
+P[Master][MergerSorter][Time: 259385279685993] Printing the result to the stream
+_[Master][MergerSorter][Time: 259385280378806] Written to OutputStream. Operation accomplished.
+o[Master][Time: 259385289453125] Reserving ports for the required worker size 1 by deleting previous resources.
+O[Resource][Time: 259385382369166] Creating worker process with worker Id 12000
+m[Resource][Time: 259385384644906] Created worker process java.lang.UNIXProcess@78ad45f8 with worker Id 12000
+_[Task Allocation][Time: 259385385052267] [Server]Listening for next task request to port 11999
+_[Task Allocation][Time: 259385487903997] [Server]Listening for next task request to port 11999
+d[Task Allocation][Time: 259385488000837] [Server]Handling communication for request from port 59009
+X[Task Allocation][Time: 259385491710262] [Server]Task request message from worker 12000
+µ[Task Allocation][Time: 259385491897298] [Manager]Assigning input file /Users/somilgupta/Desktop/CS_532/workspace/project-2-group-13/build/resources/test/random.txt to worker 12000
+²[Task Allocation][Time: 259385492047119] [Server]Task for 
